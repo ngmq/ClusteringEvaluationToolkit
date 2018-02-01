@@ -1,9 +1,8 @@
 """
-Input: a data file (csv or txt) containing N data points, each has M-1 independent features and label.
-Data is represented as a table of size NxM. Two columns are separated by comma (',') character
+Input: two clustering files containg multiple clusters, each in one line. Each line contains a list of
+indices of data points that belong to that cluster.
 
-Output: a clustering file (csv) containing K clusters in K lines. Each line i contains the indices (0-based) of the
-data points belong to cluster i
+Output: 03 measurement scores (F-measure, V-measure and Adjusted Rand Index).
 """
 
 import numpy as np 
