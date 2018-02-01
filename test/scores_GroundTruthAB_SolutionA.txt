@@ -1,0 +1,3 @@
+Fmeasure = 0.3
+Vmeasure = 0.135026479282
+AdjustedRandIndex = 0.02
